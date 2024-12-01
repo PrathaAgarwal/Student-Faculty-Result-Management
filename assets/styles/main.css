@@ -1,0 +1,46 @@
+html body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgba(3, 37, 88, 0.632);
+    background-size: 180% 180%;
+    color: rgb(255, 255, 255);
+}
+#main {
+    background-color: rgb(2, 49, 90);
+    border: 10px double black;
+    border-radius: 10px;
+    width: calc(100% - 100px); 
+    height: calc(100vh - 100px); 
+    margin: 50px; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+input{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.active{
+    background-color: black !important;
+}
+img{
+    opacity:0.5;
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    border: 1px solid #000000;
+}
+.nav-link:active{
+    background-color: black !important;
+}
+.nav-link:hover{
+    background-color: black !important;
+}
+a:active{
+    background-color: black !important;
+
+}
+ul{
+    list-style: none;
+}
